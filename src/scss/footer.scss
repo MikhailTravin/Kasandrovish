@@ -1,0 +1,31 @@
+.footer {
+    padding: 0px 0px 34px 0px;
+    // .footer__container
+    &__container {
+    }
+    // .footer__content
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: -5px;
+    }
+    // .footer__link
+    &__link {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        color: #bebebe;
+        padding: 5px;
+    }
+    // .footer__copy
+    &__copy {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 140%;
+        text-align: right;
+        color: #bebebe;
+        padding: 5px;
+    }
+}

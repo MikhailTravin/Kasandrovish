@@ -1,0 +1,21 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 100%;
+	letter-spacing: 0.02em;
+	color: $white;
+	border-radius: 5px;
+	padding: 14px 42px;
+	background: $birch;
+	transition: all 0.3s ease 0s;
+	&:hover {
+		background: rgb(41, 179, 179);
+	}
+}
