@@ -1,0 +1,52 @@
+<div id="leave-request" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close _icon-close"></button>
+			<div class="popup__forms">
+				<div class="popup__icon">
+					<img loading="lazy" src="../img/icons/icon-9.gif" alt="">
+				</div>
+				<div class="popup__titles">
+					<div class="popup__title">Оставьте заявку</div>
+					<p>
+						Оставьте ваши контакты и мы перезвоним вам
+						в течение рабочего дня
+					</p>
+				</div>
+				<form data-ajax data-popup-message="#thanks" action="sendmail.php" method="POST"
+					class="popup__form form">
+					<div class="form__inputs">
+						<div class="form__input">
+							<input type="text" name="name" placeholder="Ваше имя:">
+						</div>
+						<div class="form__input">
+							<input data-required type="text" name="phone" placeholder="Ваш номер телефона">
+						</div>
+					</div>
+					<button type="submit" class="form__button button">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="thanks" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close _icon-close"></button>
+			<div class="popup__forms">
+				<div class="popup__icon">
+					<img loading="lazy" src="../img/icons/icon-10.gif" alt="">
+				</div>
+				<div class="popup__titles">
+					<div class="popup__title">Спасибо</div>
+					<p>
+						Мы получили ваши данные
+						и скоро свяжемся с вами
+					</p>
+				</div>
+				<button data-close type="button" class="popup__button button">Закрыть</button>
+			</div>
+		</div>
+	</div>
+</div>
